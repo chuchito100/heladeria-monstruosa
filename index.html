@@ -380,3 +380,15 @@ document.addEventListener('visibilitychange',()=>{if(AC){document.hidden?AC.susp
  btn.onclick=()=>{try{getAC()}catch(e){}snd('level');$('load').classList.add('out');setTimeout(()=>$('load').remove(),600)};
 })();
 </script></body></html>
+
+<link rel="manifest" href="./manifest.webmanifest">
+<meta name="theme-color" content="#6c35b5">
+
+<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("./service-worker.js")
+      .catch(error => console.error("Error al registrar:", error));
+  });
+}
+</script>
