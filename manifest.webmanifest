@@ -1,0 +1,12 @@
+
+{
+  "name": "Heladería Monstruosa Espacial",
+  "short_name": "Heladería",
+  "description": "Mi juego Heladería Monstruosa Espacial",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#170b2b",
+  "theme_color": "#6c35b5"
+}
